@@ -1,0 +1,14 @@
+git init
+
+git add .
+
+git commit -m"____"
+git push origin main
+
+
+
+
+
+optional
+git status
+git add .
