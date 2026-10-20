@@ -19,6 +19,18 @@ public class basicinfo {
         // ; marks the end of the java statement.
         System.out.print("what is your name");
         // print(): it displays the text without moving to the next line.
+        Scanner Scanner= new Scanner(System.in);
+        // scanner : the type of variable.
+        // Scanner : the variable name.
+        // new : creates a new object.
+        // system.in : reads keyboard input.
+        System.out.print("enter your age");
+        // Asks the user to enter their age.
+        int age= Scanner.nextInt();
+        //int stores a whole number.
+        //nextInt() reads an integer from the keyboard
+        Scanner.nextLine();
+        // consumes the leftover newline after nextInt().
     }
 };
 
